@@ -25,8 +25,7 @@ function sortedSquares(nums: number[]) {
   let last = nums.length - 1;
 
   for (let i = nums.length - 1; i >= 0; i--) {
-    let square;
-    console.log(nums[i]);
+    let square: number;
 
     if (Math.abs(nums[first]) > Math.abs(nums[last])) {
       square = nums[first];
